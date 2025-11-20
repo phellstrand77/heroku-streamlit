@@ -38,7 +38,7 @@ if not path.exists():
 df = load_data(str(path))
 
 st.title("3PL → DC → Store Network Map")
-st.caption("Green lines: 3PL → DC · Red lines: DC → Store")
+st.caption("Green lines: 3PL → DC · Yellow lines: DC → Store")
 
 # ---------- FILTER UI ----------
 # Line filters
